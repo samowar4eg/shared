@@ -26,17 +26,15 @@
 //$third=27;
 //$average=($first+$second+$third)/3;
 //$mult=$average*4;
-//else
-//var_dump(true);
-//if ($mult!=$first)
-//    var_dump(false);
-//elseif ($mult!=$second)
-//    var_dump(false);
-//elseif ($mult!=$third)
-//    var_dump(false);
-//else var_dump(true);
-//echo "<br> среднее арифметическое : $average ";
+//echo " среднее арифметическое : $average ";
 //echo "<br> среднее арифметическое*4 : $mult ";
+//
+// switch ($comparison)
+//{case $mult=$first or $second or $third:
+//   echo"<br>"; var_dump(true);
+//    default: echo"<br>";var_dump(false);
+//        break;}
+
 //Дано число. Увеличьте его на 30%, на 120% и сравнить среднее арифметическое
 //результатов с первоначальным числом  (ответ true или false + сами числа)
 //$a1=50;
@@ -59,7 +57,7 @@
 
 // Дано трехзначное число. Найдите сумму его цифр
 //$a1='987';
-//echo $sum=$a1[2]+$a1[1]+$a1[0];
+//echo $sum=$a1[0]+$a1[1]+$a1[2];
 
 //В сплаве 23% железа 17% олова и 60% меди . Сплав весит 571 кг .
 //Найти массовую долю каждого компонента
@@ -78,9 +76,9 @@
 //Возьмите свой вес , посчитайте с какой силой вас притягивает земля(вес умножить на 10 ньютон на килограмм) и с какой
 // силой вам надо оттолкнуться от земли чтобы подпрыгнуть(сила притяжения земли + X ньютон (взять любое число больше 300))
 
-$weight=79;
-$gravitation=$weight*10;
-$jump=$gravitation+310;
-echo "земля притягивает меня с силой : $gravitation";
-echo "<br> что бы подпрыгнуть нужна сила : $jump";
+//$weight=79;
+//$gravitation=$weight*10;
+//$jump=$gravitation+310;
+//echo "земля притягивает меня с силой : $gravitation";
+//echo "<br> что бы подпрыгнуть нужна сила : $jump";
 
