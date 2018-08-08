@@ -6,8 +6,10 @@
 //echo "Меня зовут $name Возраст $age";
 
 //задача2
-//$second=60;
-//$hour=$second*120;
+//$second=1;
+//$minute=$second*60;
+
+//$hour=$minute*60;
 //$day=$hour*24;
 //$week=$day*7;
 //echo "секунды $second".PHP_EOL;
@@ -47,5 +49,5 @@
 ////задача 7
 //$cousre=27;
 //	$grivna=200;
-//	$sum=$grivna*$cousre;
+//	$sum=$grivna/$cousre;
 //echo $sum;
