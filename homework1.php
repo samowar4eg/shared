@@ -21,18 +21,15 @@
 
 //Даны три числа. Найдите их среднее арифметическое, умножить его на 4 и сравнить с каждым из чисел.
 //(ответ true или false + сами числа)
-$first=4;
-$second=13;
-$third=27;
-$average=($first+$second+$third)/3;
-$mult=$average*4;
 
-if ($mult!=$first)
+//Дано число. Увеличьте его на 30%, на 120% и сравнить среднее арифметическое
+//результатов с первоначальным числом  (ответ true или false + сами числа)
+$a1=50;
+$a2=$a1*(1+30/100);
+$a3=$a1*(1+120/100);
+$average=($a1+$a2+$a3)/3;
+if ($average!=$a1)
     var_dump(false);
-elseif ($mult!=$second)
-    var_dump(false);
-elseif ($mult!=$third)
-    var_dump(false);
-else var_dump(true);
-echo "<br> среднее арифметическое : $average ";
-echo "<br> среднее арифметическое*4 : $mult ";
+else
+    var_dump(true);
+echo "<br> число > на 30 % : $a2  число > на 120% : $a3 среднее арифметическое : $average";
